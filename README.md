@@ -3,10 +3,7 @@
 
 El reto consiste en replicar el sitio de **Lyft**
 
-git clone https://github.com/<nombre-de-usuario>/lyft.git
-
-![Lyft Website](docs/fullpage.png)
-
+[sitio original](https://www.lyft.com/)
 
 
 ##Proceso
@@ -34,4 +31,4 @@ git clone https://github.com/<nombre-de-usuario>/lyft.git
 
 Este deberá ser el resultado: 
 
-![Lyft Website](docs/fullpage.png)
+![Lyft Website](fullpage.png)
