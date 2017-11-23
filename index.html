@@ -5,30 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lyft </title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">     <!-- Enlazo mis archivos CSS a mi archivo HTML -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">     <!-- Enlazando mis archivos CSS a mi archivo HTML -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700" rel="stylesheet">  <!-- Enlace Google Fonts. Tipo de fuente Montserrat -->
 </head>
 <!-- CABECERA -->
 <body>
-    <header id="cabezal">   <!-- Declaro mi primer ID para el cabezal que contendra un aimagen y cuatro enlaces -->
-        <img id="navLogo" src="assets/images/logo-pink.png" alt="Logo Lyft">  <!-- Enlazo mi primera imagen -->
-        <!-- Navegador fijo -->
+    <header id="cabezal">   <!-- id para el cabezal que contendra una imagen y cuatro enlaces -->
+        <img id="navLogo" src="assets/images/logo-pink.png" alt="Logo Lyft">  <!-- Enlazo mi primera imagen, el logo -->
+        <!-- Menú fijo fijo -->
         <nav id="navSiempreVisible">
-            <ul>   <!-- Creo una lista ordenada que contendrá los elementos de mi barra de navegación. Cala uno de ellos con una clase para poder llamarlos y darles estilo en CSS -->
-                <li class="elementoNav">Drive</li>
+            <ul>   <!--Lista ordenada que contendrá los elementos de la barra de navegación. Cada uno de ellos con una clase para poder llamarlo y darle estilo en CSS -->
+                <li class="elementoNav">Drive</li> <!--Elementos del menú, clase elementoNav para darle formato-->
                 <li classs="elementoNav" id="elementoExploreNav">Explore </li>
                 <li classs="elementoNav">Help</li>
                 <li classs="elementoNav" id="elementoLogInNav">
                     <button id="botonLogInNav">Log in</button>
                 </li>
-                <li classs="elementoNav" id="elementoSingUpNav">   <!-- Este botón aparece y desaparece. display none-->
+                <li classs="elementoNav" id="elementoSingUpNav">   <!-- Este botón aparece y desaparece. Display none-->
                     <button id="botonSingUpNav">Sing up</button>
                 </li>
             </ul>
         </nav>
     </header>
        <!-- FORMULARIO -->
-    <section id="seccion1">  <!-- Creo un ID para la primera sección de este bloque de elementos: el formulario -->
+    <section id="seccion1">  <!-- id para la primera sección de este bloque de elementos: el formulario -->
         <div id="formulario">
             <div class="textFormulario">
                 <h1 class="tituloForm">TURN MILES<br>INTO MONEY</h1>
@@ -46,11 +46,11 @@
                 <br> Earn money for inviting friends to drive. <a class="linkInfo"> Learn more </a>
             </p>
         </div>
-        <div id="sectionTelefono">      <!-- Creo un ID para la segunda sección de este bloque de elementos: la imagen del teléfono celular  -->
-            <div id="contenidoSectionTelefono">  <!-- Creo un ID para los contenidos de la seccion de teléfono celular  -->
-                <div id="textoSectionTelefono">  <!-- Creo un ID para los textos de la sección -->
-                    <div class="bloqueText">
-                        <h2 class="tituloBloqueText"> A RIDE IN MINUTES </h2>
+        <div id="sectionTelefono">      <!-- id para la segunda sección -->
+            <div id="contenidoSectionTelefono">  <!-- id para los contenidos de la sección de teléfono celular -->
+                <div id="textoSectionTelefono">  <!-- id  para los textos de la sección -->
+                    <div class="bloqueText"> <!-- Esta clase le dara el mismo formato a los bloquecitos -->
+                        <h2 class="tituloBloqueText"> A RIDE IN MINUTES </h2> 
                         <p class="contBloqueText">
                             Request a ride and you’ll be on your way in minutes.
                             <br> Request. Ride. Repeat.
@@ -71,13 +71,13 @@
                         </p>
                     </div>
                 </div>
-                <div id="imgCelular">
+                <div id="imgCelular"> <!--Imagen del celular-->
                     <img src="assets/images/phone.png">
                 </div>
             </div>
         </div>
     </section>
-    <!--Aqui van las divisiones(divisionesTextoVideo) que contienen una subdivision video(con class video para el tamaño y cada uno tiene un id(video1) para la posicion) y una subdivision texto (con class textoLadoVideo para el tamaño y un id (divisionTextoVideo1) para la posicion)-->
+    <!--Aqui van las divisiones(divisionesTextoVideo) que contienen una subdivision video(con class video para el tamaño y cada uno tiene un id(video1) para la posicion) y una subdivisión texto (con class textoLadoVideo para el tamaño y un id (divisionTextoVideo1) para la posición)-->
     <section id="contenedorVideosTextos">
         <div class="divisionesTextoVideo" id="divisionTextoVideo1">
             <div class="textoLadoVideo floatIzq" id="textoLadoVideo1">
@@ -110,10 +110,10 @@
             </div>
         </div>
     </section>
-    <footer>
-        <div id="divContenedorVerticales">
-            <div class="divsVerticales">
-              <p class="titulosVerticales">LOG IN</p>
+    <footer> <!--Inicia pie de página-->
+        <div id="divContenedorVerticales">  <!-- Contenedor para todas las las secciones a los links, 4 columnas. -->
+            <div class="divsVerticales"> <!--div para columnas de los links sin imagen-->
+              <p class="titulosVerticales">LOG IN</p> 
                 <ul>
                     <li>Help</li>
                     <li>Cities</li>
@@ -138,13 +138,13 @@
                     <li>Careers</li>
                 </ul>
             </div>
-            <div class="divsVerticales" id="divImagenes">
-                <img src="assets/images/apple-store.svg" alt="">
-                <img src="assets/images/google-play.png" alt="">
-                <img src="assets/images/microsoft.png" alt="">
+            <div class="divsVerticales" id="divImagenes"> <!-- div para la columna de los logos con el link a las tiendas -->
+                <img src="assets/images/apple-store.svg" alt="App Store">
+                <img src="assets/images/google-play.png" alt="Google Play">
+                <img src="assets/images/microsoft.png" alt="Microsoft">
             </div>
         </div>
-        <div id="divHorizontal">
+        <div id="divHorizontal"> <!--Contenedor para logos y copyright-->
             <img src="assets/images/fb-white.png" alt="Logo Facebook">
             <img src="assets/images/instagram-white.png" alt="Logo Instragram">
             <img src="assets/images/tw-white.png" alt="Logo Twitter">

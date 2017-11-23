@@ -63,7 +63,7 @@ header > nav > ul > li > button {  /* Estilo al boton de LOG IN de mi barra de n
   background-color: rgba(000, 000, 000, .35); /* Aplico opacidad (color alfa al botón de lOG IN) */
   cursor: pointer;
 }
-#botonSingUpNav {      /* Estilo al boton de SING UP de mi barra de navegacion */
+#botonSingUpNav {      /* Estilo al botón de SING UP de mi barra de navegacion */
   border-color:#000 #000;
   color: #000;
   display: none;
